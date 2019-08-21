@@ -22,9 +22,9 @@ class App extends React.Component {
       msg:'',
       mobile: ''
     }
-    this.fetchProfile = this.fetchProfile.bind(this);
+   // this.fetchProfile = this.fetchProfile.bind(this);
   }
-  fetchProfile(username) {
+  fetchProfile = (username) => {
     let url = `${API}/${username}`;
     fetch(url)
       .then((res) => res.json())

@@ -1,0 +1,74 @@
+/* The side navigation menu */
+#profile-wrapper{
+  background: #fff;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ecf0f1;
+    overflow-x: hidden;
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+  
+  /* Page content */
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav span {
+    text-align: left;
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #1a4e8e;
+    display: block;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .sidenav h1{
+    text-align: left;
+    color: #607D8B;
+
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav span:hover {
+    color: #1f1f1f;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+ #go-back{
+  bottom: 30px;
+  position: absolute;
+  font-size: 17px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #1a4e8e;
+  padding: 5px;
+  cursor: pointer;
+ }
+ .active{
+  background-color: #fff;
+ }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav span {font-size: 18px;}
+  }

@@ -1,4 +1,5 @@
 import React from 'react';
+import './Home.css';
 import SearchProfile from '../componnents/SearchProfile';
 
 
@@ -12,7 +13,7 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        <section id="card">
+        <section className="card">
           <SearchProfile  />
         </section>
 

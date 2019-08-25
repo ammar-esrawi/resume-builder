@@ -1,5 +1,6 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
+import './SearchProfile.css';
 class SearchProfile extends React.Component {
   render() {
     return (

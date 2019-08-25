@@ -34,27 +34,32 @@ a {
   position: relative;
 }
 .search--box label:after {
-  position: absolute;
+  /* position: absolute;
   content: "";
   border-right: 0.625rem solid transparent;
   border-left: 0.625rem solid transparent;
   border-bottom: 0.625rem solid #fff;
   bottom: -1.0625rem;
   right: 50%;
-  margin-right: -0.3125rem;
+  margin-right: -0.3125rem; */
 }
 .search--box input[type=search] {
   width: 100%;
   font: 1rem "Titillium Web", sans-serif;
   color: #1a4e8e;
-  border: 0;
+  /* border: 0; */
   padding: 0.75rem 0.9375rem 0.9375rem;
   background: #e6ebed;
-  border-radius: 0.3125rem 0.3125rem 0 0;
+  /* border-radius: 0.3125rem 0.3125rem 0 0; */
   text-align: center;
   box-sizing: border-box;
+  border: 1px solid;
 }
+.search--box h1 {
+  text-align: center;
+  color: #1a4e8e;
 
+}
 .notfound {
   background: #fff;
   padding: 1.875rem;

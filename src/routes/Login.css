@@ -1,0 +1,70 @@
+
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,700,600);
+body {
+  background: #ecf0f1;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*:active, *:focus {
+  border: 0;
+  outline: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+
+.card {
+    width: 25rem;
+    margin: auto;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  
+  .search--box label {
+    position: relative;
+  }
+  
+  .search--box input,button {
+    margin: 3px;
+    width: 95%;
+    font: 1rem "Titillium Web", sans-serif;
+    color: #1a4e8e;
+    /* border: 0; */
+    padding: 0.75rem 0.9375rem 0.9375rem;
+    background: #e6ebed;
+    /* border-radius: 0.3125rem 0.3125rem 0 0; */
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid;
+  }
+  .search--box button {
+    cursor: pointer;
+    background: #1a4e8e;
+    color: #e6ebed;
+  }
+  .search--box h1 {
+    text-align: center;
+    color: #1a4e8e;
+    font-size: 40px;
+  
+  }
+  .search--box h2 {
+    text-align: center;
+    color: #bb2c2c;
+    font-size: 20px;
+  
+  }

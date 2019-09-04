@@ -56,6 +56,9 @@
  #go-back{
   bottom: 30px;
   position: absolute;
+
+ }
+ .profile-btn{
   font-size: 17px;
   color: #fff;
   font-weight: 700;
